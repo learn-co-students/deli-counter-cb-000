@@ -16,8 +16,8 @@ def line(katz_deli)
 	end
 end
 
-line(katz_deli)
-line(["Mark", "Mary", "Michael"])
+line(katz_deli) #test cases
+line(["Mark", "Mary", "Michael"]) #test cases
 
 def take_a_number(katz_deli, name)
 	#return their name and position in line
@@ -35,4 +35,4 @@ def now_serving(katz_deli)
 	end
 end
 
-now_serving(["Mark", "Mary", "Michael"])
+now_serving(["Mark", "Mary", "Michael"]) #test case
