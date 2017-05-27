@@ -4,6 +4,7 @@ def line(guests)
   else
     new_array = []
     guests.each_with_index { |guest, index| new_array.push("#{index + 1}. #{guest}")}
-    puts "The line is currently: " + new_array.join(" ")
+    guest_list = new_array.join(" ")
+    puts "The line is currently: " + guest_list
   end 
 end
