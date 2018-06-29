@@ -1,7 +1,19 @@
 # Write your code here.
 def line(array)
+  x = ["The line is currently:"]
+  y = []
+  count = 1
   if array.length == 0
     puts "The line is currently empty."
+  else
+    array.each do |name|
+      y.push(" #{count}. #{name}")
+      count+=1
+    end
+    y.join
+    x.push(y)
+    z = x.join
+    puts "#{z}"
   end
 end
 
